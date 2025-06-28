@@ -2,8 +2,6 @@
 let position=[0, 0]; 
 let steps=[0, 0];        
 let turn=0;              
-while (position[0]<100 && position[1]<100) {
-
   // usecase 2
   let dice=Math.floor(Math.random()* 6)+1;
   steps[turn]++;
